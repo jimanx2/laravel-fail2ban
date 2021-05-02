@@ -1,0 +1,19 @@
+{
+    "name": "jimanx2/laravel-fail2ban",
+    "version": "0.0.1",
+    "authors": [
+        {
+            "name": "Haziman Hashim",
+            "email": "haziman.hashim@razer.com"
+        }
+    ],
+    "require": {
+        "predis/predis": "^1.1",
+        "illuminate/support": "^5.0|^8.0"
+    },
+    "autoload": {
+        "psr-4": { 
+            "Fail2Ban\\": "src/" 
+        }
+    }
+}
